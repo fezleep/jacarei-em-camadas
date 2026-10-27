@@ -1,0 +1,35 @@
+# ambientes e dependências locais
+.venv/
+venv/
+
+# caches e temporários do Python/testes
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# temporários do QGIS e do sistema
+*.qgz~
+*.qgs~
+*.autosave
+.DS_Store
+Thumbs.db
+
+# material local e versões substituídas pela edição de publicação
+qgis/backup/
+qgis/jacarei_em_camadas_centro.qgz
+qgis/jacarei_em_camadas_centro_portfolio.qgz
+qgis/jacarei_em_camadas_centro_portfolio_v2.qgz
+mapas/jacarei_em_camadas_centro_portfolio.pdf
+mapas/jacarei_em_camadas_centro_portfolio_300dpi.png
+dados/brutos/osm_resposta.json
+dados/brutos/
+
+# arquivos de trabalho que não fazem parte da entrega pública
+INICIAR_AQUI.txt
+EXECUTAR_NO_WINDOWS.bat
+documentacao/auditoria_2026-10-22.md
+documentacao/auditoria_missao02_2026-10-27.md
+documentacao/progresso.md
+documentacao/reproducao_missao02.md

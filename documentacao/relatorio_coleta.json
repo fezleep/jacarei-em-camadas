@@ -1,0 +1,26 @@
+{
+  "consulta_utc": "2026-10-22T13:33:48.673863+00:00",
+  "overpass_endpoint": "https://overpass-api.de/api/interpreter",
+  "osm_base_timestamp": "2026-10-22T13:32:01Z",
+  "recorte_bbox_wgs84": [
+    -45.975,
+    -23.306,
+    -45.96,
+    -23.296
+  ],
+  "recorte_tipo": "caixa de estudo, não limite oficial do bairro Centro",
+  "licenca": "OpenStreetMap contributors / ODbL",
+  "contagem": {
+    "vias": 334,
+    "areas_verdes": 14,
+    "equipamentos_candidatos": 25
+  },
+  "ignorados": {
+    "geometry_unavailable": 0,
+    "geometry_invalid_or_empty": 0
+  },
+  "observacoes": [
+    "Equipamentos são candidatos; situação de gestão pública não verificada.",
+    "Feições ausentes no OSM não significam ausência no território."
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.972576,
+          -23.3050883
+        ]
+      },
+      "properties": {
+        "osm_id": 4261309995,
+        "osm_type": "node",
+        "nome": "Bonanomi",
+        "classe_osm": "clinic",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "amenity": "clinic",
+          "healthcare": "clinic",
+          "name": "Bonanomi"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9656435,
+          -23.3055473
+        ]
+      },
+      "properties": {
+        "osm_id": 11360577769,
+        "osm_type": "node",
+        "nome": "Microcamp",
+        "classe_osm": "college",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "94",
+          "addr:postcode": "12308-520",
+          "addr:street": "Rua Rui Barbosa",
+          "amenity": "college",
+          "contact:facebook": "microcampjacareiSP",
+          "internet_access": "wlan",
+          "name": "Microcamp",
+          "opening_hours": "Mo-Fr 07:30-21:00; Sa 07:30-17:00",
+          "phone": "+55 12 3952 3334"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9614007,
+          -23.3005978
+        ]
+      },
+      "properties": {
+        "osm_id": 11741833169,
+        "osm_type": "node",
+        "nome": "Clinica Amor Saúde",
+        "classe_osm": "clinic",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "171",
+          "addr:postcode": "12308-060",
+          "addr:street": "Avenida Siqueira Campos",
+          "amenity": "clinic",
+          "healthcare": "clinic",
+          "name": "Clinica Amor Saúde",
+          "name:pt": "Amor Saúde",
+          "opening_hours": "Mo-Fr 07:30-18:30; Sa 08:00-12:00",
+          "phone": "+55 12 3959 1016",
+          "website": "https://www.amorsaude.com.br/clinica/jacarei-sp/"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9737052,
+          -23.296579
+        ]
+      },
+      "properties": {
+        "osm_id": 11963564057,
+        "osm_type": "node",
+        "nome": "Maple Bear",
+        "classe_osm": "school",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:city": "Jacareí",
+          "addr:housenumber": "329",
+          "addr:postcode": "12327-673",
+          "addr:street": "Av. Edouard Six",
+          "addr:suburb": "Jardim Paraiba",
+          "amenity": "school",
+          "brand": "Maple Bear",
+          "brand:wikidata": "Q10324823",
+          "name": "Maple Bear",
+          "operator:type": "private"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9637248,
+          -23.3032922
+        ]
+      },
+      "properties": {
+        "osm_id": 13069067201,
+        "osm_type": "node",
+        "nome": "Santa Casa Jacareí",
+        "classe_osm": "doctors",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "281",
+          "addr:street": "Rua Floriano Peixoto",
+          "amenity": "doctors",
+          "internet_access": "wlan",
+          "name": "Santa Casa Jacareí"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9719819,
+          -23.3059395
+        ]
+      },
+      "properties": {
+        "osm_id": 13120175337,
+        "osm_type": "node",
+        "nome": "Hospital de Clínicas Antonio Afonso",
+        "classe_osm": "hospital",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Hospital de Clínicas Antonio Afonso"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9674555,
+          -23.3033125
+        ]
+      },
+      "properties": {
+        "osm_id": 13121091200,
+        "osm_type": "node",
+        "nome": "UMSF Central",
+        "classe_osm": "clinic",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "amenity": "clinic",
+          "healthcare": "clinic",
+          "name": "UMSF Central",
+          "opening_hours": "Mo-Fr 07:00-17:00"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9740395,
+          -23.3042172
+        ]
+      },
+      "properties": {
+        "osm_id": 13121163915,
+        "osm_type": "node",
+        "nome": "Procon SP",
+        "classe_osm": "government",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "name": "Procon SP",
+          "office": "government",
+          "operator": "Procon",
+          "operator:wikidata": "Q10286388"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9619212,
+          -23.2985195
+        ]
+      },
+      "properties": {
+        "osm_id": 13838832984,
+        "osm_type": "node",
+        "nome": "Polícia Civil",
+        "classe_osm": "police",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "amenity": "police",
+          "name": "Polícia Civil",
+          "operator": "Polícia Civil do Estado de São Paulo",
+          "operator:wikidata": "Q10350993"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9680743,
+          -23.3041066
+        ]
+      },
+      "properties": {
+        "osm_id": 14245002989,
+        "osm_type": "node",
+        "nome": "Delegacia Seccional de Polícia de Jacareí",
+        "classe_osm": "police",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "amenity": "police",
+          "name": "Delegacia Seccional de Polícia de Jacareí",
+          "official_name": "Delegacia Seccional de Polícia de Jacareí Delegado Talis Prado Pinto",
+          "operator": "Polícia Civil do Estado de São Paulo",
+          "operator:wikidata": "Q10350993"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "geometria_original"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.970814204344734,
+          -23.30121785
+        ]
+      },
+      "properties": {
+        "osm_id": 543881746,
+        "osm_type": "way",
+        "nome": "Biblioteca Municipal Macedo Soares",
+        "classe_osm": "library",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "215",
+          "addr:street": "Avenida Nove de Julho",
+          "amenity": "library",
+          "building": "public",
+          "name": "Biblioteca Municipal Macedo Soares",
+          "operator": "Secretaria Municipal de Educação",
+          "operator:type": "government",
+          "start_date": "1908-09-08"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96101927634848,
+          -23.305370500000002
+        ]
+      },
+      "properties": {
+        "osm_id": 563585892,
+        "osm_type": "way",
+        "nome": "Escola Estadual João Feliciano",
+        "classe_osm": "school",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "40",
+          "addr:postcode": "12308-420",
+          "addr:street": "Rua Alfredo Ramos",
+          "addr:suburb": "Centro",
+          "amenity": "school",
+          "contact:phone": "+55 12 3952 7637",
+          "email": "e013821a@educacao.sp.gov.br",
+          "name": "Escola Estadual João Feliciano",
+          "operator": "Secretaria da Educação do Estado de São Paulo",
+          "operator:type": "government",
+          "operator:wikidata": "Q10369245",
+          "phone": "+55 12 3951 4751",
+          "ref:INEP": "INEP-",
+          "religion": "none"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9748618,
+          -23.305547599999997
+        ]
+      },
+      "properties": {
+        "osm_id": 615549590,
+        "osm_type": "way",
+        "nome": "Prefeitura Municipal de Jacareí",
+        "classe_osm": "townhall",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:city": "Jacareí",
+          "addr:street": "Avenida Luís Simon",
+          "addr:suburb": "Centro",
+          "amenity": "townhall",
+          "building": "public",
+          "name": "Prefeitura Municipal de Jacareí"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.97430684863579,
+          -23.305694850000002
+        ]
+      },
+      "properties": {
+        "osm_id": 615549592,
+        "osm_type": "way",
+        "nome": "Câmara Municipal de Jacareí",
+        "classe_osm": "government",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:city": "Jacareí",
+          "addr:street": "Avenida Luís Simon",
+          "addr:suburb": "Centro",
+          "admin_level": "8",
+          "building": "public",
+          "check_date:opening_hours": "2024-07-11",
+          "government": "legislative",
+          "name": "Câmara Municipal de Jacareí",
+          "office": "government",
+          "opening_hours": "Mo-Sa 07:30-17:30"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96662120180251,
+          -23.303955950000002
+        ]
+      },
+      "properties": {
+        "osm_id": 681749706,
+        "osm_type": "way",
+        "nome": "Unimed São José dos Campos - Unidade Estação Jacareí",
+        "classe_osm": "hospital",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:city": "Jacareí",
+          "addr:housenumber": "693",
+          "addr:postcode": "12327-000",
+          "addr:street": "Avenida Doutor Lúcio Malta",
+          "addr:suburb": "Centro",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Unimed São José dos Campos - Unidade Estação Jacareí",
+          "operator:type": "private",
+          "operator:wikipedia": "pt:Unimed",
+          "phone": "+55 12 2128 4000",
+          "ref:CNES": "5601436",
+          "ref:vatin": "BR60214517001187"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96737478280489,
+          -23.304470350000003
+        ]
+      },
+      "properties": {
+        "osm_id": 681749711,
+        "osm_type": "way",
+        "nome": "Policia Militar do Estado de São Paulo",
+        "classe_osm": "police",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "amenity": "police",
+          "building": "yes",
+          "name": "Policia Militar do Estado de São Paulo",
+          "operator": "Polícia Militar do Estado de São Paulo",
+          "operator:short": "PMESP",
+          "operator:wikidata": "Q10351025",
+          "operator:wikipedia": "pt:Polícia Militar do Estado de São Paulo"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96842229158802,
+          -23.305330249999997
+        ]
+      },
+      "properties": {
+        "osm_id": 681749715,
+        "osm_type": "way",
+        "nome": "EducaMais Centro",
+        "classe_osm": "school",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "20",
+          "addr:street": "Rua Alfredo Schurig",
+          "amenity": "school",
+          "name": "EducaMais Centro",
+          "phone": "+55 12 3953 5080",
+          "source": "http://www.jacarei.sp.gov.br/educamais/"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96982086006737,
+          -23.30440085
+        ]
+      },
+      "properties": {
+        "osm_id": 681749719,
+        "osm_type": "way",
+        "nome": "Correios",
+        "classe_osm": "post_office",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "amenity": "post_office",
+          "brand": "Empresa Brasileira de Correios e Telégrafos",
+          "brand:short": "Correios",
+          "brand:wikidata": "Q3375004",
+          "building": "yes",
+          "name": "Correios",
+          "operator": "Correios",
+          "operator:wikidata": "Q3375004",
+          "operator:wikipedia": "en:Correios"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96721164167651,
+          -23.3017723
+        ]
+      },
+      "properties": {
+        "osm_id": 748990845,
+        "osm_type": "way",
+        "nome": "Correios",
+        "classe_osm": "post_office",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "amenity": "post_office",
+          "brand": "Empresa Brasileira de Correios e Telégrafos",
+          "brand:short": "Correios",
+          "brand:wikidata": "Q3375004",
+          "brand:wikipedia": "en:Correios",
+          "building": "yes",
+          "name": "Correios",
+          "operator": "Correios",
+          "operator:wikidata": "Q3375004",
+          "operator:wikipedia": "en:Correios"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96894730233282,
+          -23.299078
+        ]
+      },
+      "properties": {
+        "osm_id": 825940758,
+        "osm_type": "way",
+        "nome": "Escola Estadual Professor Francisco Feleciano Ferreira da Silva - Chico Ferreira",
+        "classe_osm": "school",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "473",
+          "addr:postcode": "12327-682",
+          "addr:street": "Avenida Nove de Julho",
+          "addr:suburb": "Jardim Pereira do Amparo",
+          "amenity": "school",
+          "email": "e036341a@educacao.sp.gov.br",
+          "name": "Escola Estadual Professor Francisco Feleciano Ferreira da Silva - Chico Ferreira",
+          "operator": "Secretaria da Educação do Estado de São Paulo",
+          "operator:type": "government",
+          "operator:wikidata": "Q10369245",
+          "phone": "+55 12 3951 4528",
+          "ref": "INEP-35036341"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96351019888038,
+          -23.29631825
+        ]
+      },
+      "properties": {
+        "osm_id": 826258036,
+        "osm_type": "way",
+        "nome": "Unidade de Pronto Atendimento",
+        "classe_osm": "hospital",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Unidade de Pronto Atendimento"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96059855007514,
+          -23.303232
+        ]
+      },
+      "properties": {
+        "osm_id": 831013787,
+        "osm_type": "way",
+        "nome": "Instituto de Educação Thereza Porto Marques",
+        "classe_osm": "school",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "341",
+          "addr:street": "Rua General Carneiro",
+          "addr:suburb": "Centro",
+          "amenity": "school",
+          "email": "secretaria@institutoportomarques.com.br",
+          "name": "Instituto de Educação Thereza Porto Marques",
+          "phone": "+5512 3951 8569",
+          "website": "http://www.institutoportomarques.com.br/"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.96655366815969,
+          -23.3036653
+        ]
+      },
+      "properties": {
+        "osm_id": 832291008,
+        "osm_type": "way",
+        "nome": "Ativia Saúde",
+        "classe_osm": "hospital",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "35",
+          "addr:street": "Avenida Prefeito José Christovão Arouca",
+          "amenity": "hospital",
+          "contact:website": "http://www.ativia.com.br/",
+          "healthcare": "hospital",
+          "name": "Ativia Saúde"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9686008640239,
+          -23.2973936
+        ]
+      },
+      "properties": {
+        "osm_id": 837378799,
+        "osm_type": "way",
+        "nome": "Escola Técnica Cônego José Bento",
+        "classe_osm": "college",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:housenumber": "745",
+          "addr:postcode": "12327-682",
+          "addr:street": "Avenida Nove de Julho",
+          "addr:suburb": "Jardim Pereira do Amparo",
+          "alt_name": "ETEC Jacareí",
+          "amenity": "college",
+          "loc_name": "ETEC Cônego José Bento",
+          "name": "Escola Técnica Cônego José Bento",
+          "opening_hours": "Mo-Fr 07:30-22:00",
+          "operator": "Centro Paula Souza",
+          "operator:type": "public",
+          "operator:wikidata": "Q52637715",
+          "phone": "+55 12 3951 5800",
+          "start_date": "1994",
+          "website": "https://etecjbento.cps.sp.gov.br"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.97401956003277,
+          -23.3042271
+        ]
+      },
+      "properties": {
+        "osm_id": 979318886,
+        "osm_type": "way",
+        "nome": "PROCON",
+        "classe_osm": "government",
+        "origem": "OpenStreetMap",
+        "tags_osm": {
+          "addr:city": "Jacareí",
+          "addr:housenumber": "222",
+          "addr:postcode": "12327-160",
+          "addr:street": "Rua Capitão Joaquim Pinheiro do Prado",
+          "addr:suburb": "Centro",
+          "building": "public",
+          "building:levels": "1",
+          "name": "PROCON",
+          "office": "government",
+          "operator": "Procon",
+          "operator:wikidata": "Q10286388",
+          "website": "https://www.procon.sp.gov.br/jacarei/",
+          "wheelchair": "yes"
+        },
+        "gestao_publica_verificada": false,
+        "observacao": "Candidato por classificação OSM. Confirmar natureza pública em fonte oficial.",
+        "posicao": "ponto_representativo_da_geometria"
+      }
+    }
+  ]
+}
