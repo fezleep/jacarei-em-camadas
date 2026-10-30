@@ -1,0 +1,59 @@
+name: publicar no GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: obter o repositorio
+        uses: actions/checkout@v6
+
+      - name: configurar o Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: instalar dependencias
+        working-directory: web
+        run: npm ci
+
+      - name: construir a aplicacao
+        working-directory: web
+        run: npm run build
+
+      - name: configurar o GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: enviar o artefato do site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: web/dist
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

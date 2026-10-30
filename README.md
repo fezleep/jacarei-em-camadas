@@ -2,6 +2,8 @@
 
 esse projeto nasceu da vontade de juntar duas áreas que fazem parte da minha trajetória: desenvolvimento de software e geoprocessamento. comecei explorando dados reais da região central de jacareí, usando o QGIS para trabalhar a composição cartográfica e o Python para automatizar coleta, validação e montagem do projeto.
 
+acesse a primeira versão web: **[fezleep.github.io/jacarei-em-camadas](https://fezleep.github.io/jacarei-em-camadas/)**
+
 o resultado desta primeira etapa é um mapa A4 com três camadas do OpenStreetMap: vias, áreas verdes e equipamentos candidatos.
 
 ![mapa da região central de jacareí](mapas/jacarei_em_camadas_centro_portfolio_v2_300dpi.png)
@@ -15,6 +17,9 @@ o resultado desta primeira etapa é um mapa A4 com três camadas do OpenStreetMa
 - validação de geometria, tipo e recorte com Python e Shapely;
 - scripts PyQGIS para montar, finalizar e revisar o layout;
 - testes automatizados com Pytest.
+- aplicação web responsiva com navegação, pesquisa, filtros e popups;
+- visualização das três camadas no Leaflet;
+- consulta de proximidade em um raio de 500 m para pontos de interesse.
 
 as camadas atuais são:
 
@@ -29,6 +34,32 @@ as camadas atuais são:
 - GeoJSON e Shapely;
 - OpenStreetMap e Overpass API;
 - Pytest.
+- React, TypeScript e Vite;
+- Leaflet e React Leaflet;
+- Vitest e ESLint;
+- GitHub Actions e GitHub Pages.
+
+## como executar a aplicação web
+
+com Node.js 24 e npm:
+
+```powershell
+cd web
+npm ci
+npm run dev
+```
+
+acesse `http://localhost:5173/jacarei-em-camadas/`.
+
+para verificar e gerar a versão de produção:
+
+```powershell
+npm run lint
+npm run test
+npx tsc -b
+npm run build
+npm run preview
+```
 
 ## como abrir o mapa
 
@@ -80,9 +111,25 @@ este é um projeto independente e não possui vínculo com a Prefeitura Municipa
 
 ## próximos passos
 
-- levar as três camadas para um mapa interativo com Leaflet;
-- publicar uma primeira versão navegável na web;
+- integrar fontes oficiais de saúde e educação depois da revisão dos dados experimentais;
+- acrescentar novas consultas espaciais;
+- incorporar futuras camadas de sensoriamento remoto;
 - continuar documentando as decisões e limitações conforme o projeto evoluir.
+
+## continuar em outro computador
+
+a primeira publicação foi preparada na branch `desenvolvimento/missao-04-web` e integrada à `main`. para obter a versão publicada em outro computador:
+
+```powershell
+git clone https://github.com/fezleep/jacarei-em-camadas.git
+cd jacarei-em-camadas
+git switch main
+cd web
+npm ci
+npm run dev
+```
+
+o hash exato do commit publicado pode ser consultado no histórico da `main` e no Pull Request da missão 05. os arquivos experimentais da investigação CNES/INEP da missão 04.2 permaneceram somente no computador original e não fazem parte desta publicação; eles não devem ser recriados nem substituídos a partir da versão pública.
 
 ## autor
 

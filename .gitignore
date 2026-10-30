@@ -9,6 +9,10 @@ __pycache__/
 .coverage
 htmlcov/
 
+# aplicação web
+web/node_modules/
+web/dist/
+
 # temporários do QGIS e do sistema
 *.qgz~
 *.qgs~
@@ -25,6 +29,7 @@ mapas/jacarei_em_camadas_centro_portfolio.pdf
 mapas/jacarei_em_camadas_centro_portfolio_300dpi.png
 dados/brutos/osm_resposta.json
 dados/brutos/
+dados/experimentais/fontes_oficiais/brutos/
 
 # arquivos de trabalho que não fazem parte da entrega pública
 INICIAR_AQUI.txt
