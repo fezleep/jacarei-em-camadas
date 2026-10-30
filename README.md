@@ -129,7 +129,9 @@ npm ci
 npm run dev
 ```
 
-o hash exato do commit publicado pode ser consultado no histórico da `main` e no Pull Request da missão 05. os arquivos experimentais da investigação CNES/INEP da missão 04.2 permaneceram somente no computador original e não fazem parte desta publicação; eles não devem ser recriados nem substituídos a partir da versão pública.
+a primeira versão web foi publicada a partir da branch `desenvolvimento/missao-04-web`, no commit [`bb1d8f1`](https://github.com/fezleep/jacarei-em-camadas/commit/bb1d8f13adbeaf4464b9c907d055aebc7eccffb4), e integrada à `main` pelo [Pull Request #1](https://github.com/fezleep/jacarei-em-camadas/pull/1), no merge `68d38be`.
+
+os arquivos experimentais da investigação CNES/INEP da missão 04.2 permaneceram somente no computador original e não fazem parte desta publicação; eles não devem ser recriados nem substituídos a partir da versão pública.
 
 ## autor
 
